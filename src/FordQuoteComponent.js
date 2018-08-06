@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 
-class FordQuoteComponent extends Component {
+export default class FordQuoteComponent extends Component {
   render() {
     return (
       <div className="bar" id="ford">
@@ -11,5 +11,3 @@ class FordQuoteComponent extends Component {
     );
   }
 }
-
-export default FordQuoteComponent;
